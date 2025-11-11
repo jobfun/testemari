@@ -4,46 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Exemplo: Página HTML</title>
-    <style>
-        :root{
-            --bg:#f6f8fa; --card:#fff; --accent:#0366d6; --muted:#6b7280;
-        }
-        *{box-sizing:border-box}
-        body{
-            margin:0;
-            font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
-            background:var(--bg);
-            color:#111;
-            line-height:1.4;
-        }
-        header{
-            background:linear-gradient(90deg,rgba(3,102,214,0.08),transparent);
-            padding:1rem;
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-        }
-        .brand{font-weight:700;color:var(--accent)}
-        nav a{margin-left:1rem;color:var(--muted);text-decoration:none}
-        main{max-width:980px;margin:1.25rem auto;padding:0 1rem}
-        .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
-        .card{
-            background:var(--card);
-            padding:1rem;
-            border-radius:8px;
-            box-shadow:0 1px 2px rgba(16,24,40,0.05);
-        }
-        table{width:100%;border-collapse:collapse}
-        th,td{padding:.5rem .75rem;text-align:left;border-bottom:1px solid #eef2f7}
-        form label{display:block;font-size:.9rem;margin-bottom:.25rem;color:var(--muted)}
-        input,button,select,textarea{
-            width:100%;padding:.5rem;border:1px solid #dbe4ef;border-radius:6px;background:white;
-            font:inherit;
-        }
-        footer{text-align:center;padding:1rem;color:var(--muted);font-size:.9rem}
-        .actions{display:flex;gap:.5rem;justify-content:flex-end}
-        @media (max-width:480px){ .actions{flex-direction:column} }
-    </style>
+    <link rel="stylesheet" href="/css/default.css" />
 </head>
 <body>
     <header>
